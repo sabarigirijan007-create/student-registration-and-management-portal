@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2>CCET</h2>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="manage-students.html">Students</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+
+        <h2>Student Registration</h2>
+
+        <form id="registerForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="text" id="regno" placeholder="Register Number" required>
+
+            <select id="department" required>
+                <option value="">Select Department</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+                <option>CIVIL</option>
+            </select>
+            <select id="year" required>
+                <option value="">Select Year</option>
+                <option>I Year</option>
+                <option>II Year</option>
+                <option>III Year</option>
+                <option>IV Year</option>
+            </select>
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <input type="password" id="password" placeholder="Password" required>
+
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Student Registration Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
